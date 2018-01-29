@@ -1,5 +1,6 @@
 import pyautogui as pg
 import time
+import webbrowser
 
 points = 0
 
@@ -204,18 +205,22 @@ pg.alert ("You are...")
 #Serena Van der Woodsen
 if points < 7:
     pg.alert("Serena Van der Woordsen")
+    webbrowser.open("http://farm4.static.flickr.com/3133/2440511985_692e79aa36.jpg?v=0") 
 
 #Chuck Bass
 if points >=7 and points <13:
     pg.alert("Chuck Bass")
+    webbrowser.open("https://vignette.wikia.nocookie.net/gossipgirl/images/3/33/Chuck-blair-and-chuck-7310047-1700-2560.jpg/revision/latest/scale-to-width-down/332?cb=20110426180349") 
 
 #Blaire Waldorf
 if points >= 14 and points <20:
-    pg.alert("Blaire Waldorf")
+    pg.alert("Blair Waldorf")
+    webbrowser.open("http://stylevanity.com/wp-content/uploads/2015/11/Leighton-Meester-Gossip-Girl-9.jpg") 
 
 #Nate Archibald
 if points >= 20 and points <30:
     pg.alert ("Nate Archibald")
+    webbrowser.open("https://cdn-geo.dayre.me/07fdb71a-0de9-47c4-82da-7f06274891fc-image.jpg") 
     
 
 
